@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: Arame;
+    src: url(Arame.ttf)
+}
+
+@font-face {
+    font-family: California;
+    src: url(Californiaa.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas.otf);
+}
+
+body{
+    background: url(back.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.link-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.link-bio img{
+    width: 150px;
+    height: 150px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.img1 {
+    background: url(serv2.png) no-repeat;
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    font-family: havelock;
+}
+
+.link-bio h1{
+    font-size: 40px;
+}
+
+.link-bio a {
+    background: url(back2.gif) no-repeat;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.link-bio a:hover {
+    background-color: rgb(255,223,93);
+}
+
+.titulo {
+    text-align: center;
+    font-family: Arame;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: Bebas;
+}
+
+.titulo3 {
+    text-align: center;
+    font-family: Arame;
+    color: aliceblue;
+}
+
+.titulo4 {
+    text-align: center;
+    font-family: California;
+}
+
+.rodape {
+    text-align: center;
+}
