@@ -83,6 +83,10 @@ body{
     background-color: rgb(255,223,93);
 }
 
+h2 {
+    color: rgb(35,207,95);
+}
+
 .titulo {
     text-align: center;
     font-family: Arame;
