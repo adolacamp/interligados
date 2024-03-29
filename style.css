@@ -53,6 +53,14 @@ body{
     font-family: havelock;
 }
 
+.img2 {
+    background: url(spo.jpg) no-repeat;
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    font-family: havelock;
+}
+
 .link-bio h1{
     font-size: 40px;
 }
